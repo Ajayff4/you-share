@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/you-share",
   plugins: [react()],
-  base: "/you-share/",
-  server: {
-    port: 3000,
-    open: true,
-  }
+  // server: {
+  //   port: 3000,
+  //   open: true,
+  // }
 })
