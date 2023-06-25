@@ -6,7 +6,7 @@
   "homepage": "https://Ajayff4.github.io/you-share/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=./",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
